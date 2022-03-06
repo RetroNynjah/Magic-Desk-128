@@ -1,9 +1,9 @@
 # Magic Desk 128 (1MB)
 
 <img src="rev1\images\render-top-names.png" alt="Render top" width="400"/><br/>
-This is a Commodore 128 version of the popular Commodore 64 Magic Desk cartridge.  
-The Magic Desk cartridge is a simple bank switching ROM cartridge that uses the first address of I/O1 ($de00) to select ROM bank. The difference between the C128 Magic Desk format and the C64 version is that the C128 version has 16kB ROM per bank instead of 8kB and therefore supports twice as much ROM.
-This is the first version of the C128 cartridge and it has room for up yo 1MB of ROM divided into 64 16kB banks. The cartridge format supports up to 4MB of ROM (256 blocks of 16kB) if more ROM chips are added to the design.
+This is a Commodore 128 version of the popular Commodore 64 Magic Desk cartridge.
+The Magic Desk cartridge is a simple bank switching ROM cartridge that uses the first address of I/O1 ($de00) to select ROM banks. The difference between this C128 Magic Desk format and the C64 version is that the C128 version has 16kB ROM per bank instead of 8kB and therefore supports twice as much ROM. Theoretically it would support up to 4MB (256x16kB).  
+This is the first version of the C128 Magic Desk cartridge and it has room for up to 1MB of ROM divided into 64 16kB banks.
 
 The cartridge was designed with SST39 flash chips in mind but other 32-pin flash or EPROM/EEPROM chips can be used too as long as they are pin-compatible.
 
