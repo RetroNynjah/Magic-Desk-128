@@ -37,3 +37,9 @@ If you use a smaller chip such as the SST39SF010, the data in the eight availabl
 |U3         |32-pin flash/EPROM   |First ROM. SST39SF or compatible |
 |U4         |32-pin flash/EPROM   |Second ROM (optional)            |
 |C1,C2,C3,C4|100nF ceramic        |5mm pitch                        |
+
+## Software
+### Magic Cartridge Generator
+Zzarko has made a Python script and a menu program that can be used to generate menu-driven multi-cart images that can be put on this cartridge.  
+Create a cartridge with all your favorite C128 utils or games. The requirement is that they consist of a single prg-file (no multi-load programs). 
+Zzarko's Magic Cartridge Generator along with documentation and examples can be found at https://bitbucket.org/zzarko/magic-cartridge-generator
