@@ -12,7 +12,7 @@ After power-up or reset, ROM bank 0 (the first 16kB of the LOW chip) is active a
 That first bank needs to contain the regular cartridge initiation bytes such as CBM magic word, autostart configuration and start vectors if you want your cartridge to autostart.
 
 ### Switching banks
-Write the address of the desired ROM bank (#$00-#$63) to $de00 to switch bank. Write #$63 to switch to the last bank and #$00 to switch back to the first bank or any bank in between.
+Write the address of the desired ROM bank (0-63) to $de00 to switch bank. Set the value to 63 to switch to the last bank and value 0 to switch back to the first bank or any bank in between.
 The size and amount of ROM chips is flexible. It's even possible to mix and match chips of different sizes to match your needs.
 The LOW chip contains banks 0-31 and the HIGH chip contains 32-63. 
 It doesn't make sense to add a HIGH chip if there's anything less than a 4Mbit/512kB (SST39SF040) chip in the LOW position but it is possible. You just have to skip some of the banks from the LOW range and skip to bank 32 to read from the HIGH chip.
