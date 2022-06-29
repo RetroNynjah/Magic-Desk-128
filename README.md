@@ -39,6 +39,12 @@ If you use a smaller chip such as the SST39SF010, the data in the eight availabl
 |C1,C2,C3,C4|100nF ceramic        |5mm pitch                        |
 
 ## Software
+### Volley for Two
+The game Volley for Two is the reason that I developed this cartridge format in the first place. I started working on the cartrige when the programmer Jonas Hultén wanted a cartridge format to release the game on. He modified the game to load from a Magic Desk 128 cartridge.
+
+You can download cartridge ROM file along with printable labels and more from https://kollektivet.nu/v42/  
+The game needs a 256kB (SST39SF020) or larger flash chip.
+
 ### Magic Cartridge Generator
 Zzarko has made a Python script and a menu program that can be used to generate menu-driven multi-cart images that can be put on this cartridge.  
 Create a cartridge with all your favorite C128 utils or games. The requirement is that they consist of a single prg-file (no multi-load programs). 
