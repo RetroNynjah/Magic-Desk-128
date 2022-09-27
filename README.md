@@ -49,3 +49,8 @@ The game needs a 256kB (SST39SF020) or larger flash chip.
 Zzarko has made a Python script and a menu program that can be used to generate menu-driven multi-cart images that can be put on this cartridge.  
 Create a cartridge with all your favorite C128 utils or games. The requirement is that they consist of a single prg-file (no multi-load programs). 
 Zzarko's Magic Cartridge Generator along with documentation and examples can be found at https://bitbucket.org/zzarko/magic-cartridge-generator
+
+### Emulator Support
+The Kernal64 emulator can emulate this cartridge.
+At the moment you will have to mount the ROM image from the internal function ROM configuration and set the type to MAGICDESK128.  
+The Kernal64 project can be found at https://github.com/abbruzze/kernal64
