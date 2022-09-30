@@ -56,5 +56,5 @@ At the moment you will have to mount the ROM image from the internal function RO
 The Kernal64 project can be found at https://github.com/abbruzze/kernal64
 
 Vice will support emulation of the Magic Desk 128 from version 3.6.2  
-Volley For two and images created by ZZarko's Magic Cartridge Generator works in r42534 and later builds which can be found at https://github.com/VICE-Team/svn-mirror/releases  
+Volley For two and images created by ZZarko's Magic Cartridge Generator works in r42534 and later builds. These builds can be found at https://github.com/VICE-Team/svn-mirror/releases  
 The only method I currently know of for mounting the cartridge image is to start Vice with the command line parameter *-cartmd128 <romfile.bin>*  
