@@ -61,6 +61,8 @@ The Kernal64 emulator can emulate this cartridge.
 At the moment you will have to mount the ROM image from the internal function ROM configuration and set the type to MAGICDESK128.  
 The Kernal64 project can be found at https://github.com/abbruzze/kernal64
 
-Vice will support emulation of the Magic Desk 128 from version 3.6.2  
-Volley For two and images created by ZZarko's Magic Cartridge Generator works in r42534 and later builds. These builds can be found at https://github.com/VICE-Team/svn-mirror/releases  
-The only method I currently know of for mounting the cartridge image is to start Vice with the command line parameter *-cartmd128 <romfile.bin>*  
+VICE supports emulation of the Magic Desk 128 from version 3.7.  
+Mounting a regular bin file can be done by starting Vice with the command line parameter *-cartmd128 <romfile.bin>*  
+Cartridge images in crt format can be opened using the attach cartridge function in the menu. The crt files can be generated from bin files using version 3.7 or newer of the command cartconv using the below syntax.  
+```cartconv -t md128 -i romfile.bin -o cartfile.crt -n "Your display name"```
+
